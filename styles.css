@@ -1,2 +1,19 @@
+/* styles.css */
+.holder {
+  display: flex;
+  justify-content: center; /* horizontally center the items */
+  align-items: center; /* vertically center the items */
+  height: 100vh; /* make the holder cover the entire viewport height */
+}
 
-/* Your CSS Code here. */
+.item {
+  padding: 20px;
+  margin: 10px;
+  background-color: #f2f2f2;
+}
+
+.item-1 {
+  /* Position item-1 in the center of the screen */
+  align-self: center;
+  justify-self: center;
+}
